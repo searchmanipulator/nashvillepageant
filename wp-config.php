@@ -14,18 +14,21 @@
  * @package WordPress
  */
 
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] );
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
 
-/** MySQL database username */
-define('DB_USER', 'username_here');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'password_here');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+if (isset($_SERVER["DATABASE_URL"])) {
+ $db = parse_url($_SERVER["DATABASE_URL"]);
+ define("DB_NAME", trim($db["path"],"/"));
+ define("DB_USER", $db["user"]);
+ define("DB_PASSWORD", $db["pass"]);
+ define("DB_HOST", $db["host"]);
+}
+else {
+ die("Your heroku DATABASE_URL does not appear to be correctly specified.");
+}
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -42,14 +45,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'WOJt%E(+}RfxUQF_)^_6]&HCgI+hk`yY,7j.tWRQ1x?3)&8.d}{Q<c!xs >_o+1/');
+define('SECURE_AUTH_KEY',  '()cjLt^,cw9qAS{im);g a?]pK`)]IBMZh8^Q`&FpV:|w<(-I5hmmkXfwxWtdVeF');
+define('LOGGED_IN_KEY',    'RMOe,Wa?0G3G8Y+;^;pf5j2yB^U/:&B47.!xlv<+) EA}&I 92V6`g(!!y|>RD_]');
+define('NONCE_KEY',        'T`SU/F^gLExzTMkOuZ0Sa$;YSE<B9-Bv,I`:crCmD[-If;1KS)0xpw6da?o|}XzK');
+define('AUTH_SALT',        '++=!+v^@@PMASu1K+:[/j14+:Iz[(_</|CXJ5x*ztf+h,|C-STjRGtAO+)|eCOuA');
+define('SECURE_AUTH_SALT', '<ysV`ECR[qQ|oJ3B01aWQ7(A3Rc,+HJ*+s/W+RVYF|yS#pG_KRNd{* ||aUfRTk4');
+define('LOGGED_IN_SALT',   '0y+2%KY!3I%%(XwF`md$pq/.:4W4zJjqe0W6=F#+s^}#W?T]{ oGEKh*-rxA3z!w');
+define('NONCE_SALT',       '{{GeL!H,,$$!/+E0+ug3C8aOfCEb7mH=sYlZg4}T{+g>dP2mPX`t}g?8-UcJB);N');
 
 /**#@-*/
 
