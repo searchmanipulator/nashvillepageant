@@ -14,21 +14,19 @@
  * @package WordPress
  */
 
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] );
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define('DB_NAME', 'misstee5_main');
 
-if (isset($_SERVER["DATABASE_URL"])) {
- $db = parse_url($_SERVER["DATABASE_URL"]);
- define("DB_NAME", trim($db["path"],"/"));
- define("DB_USER", $db["user"]);
- define("DB_PASSWORD", $db["pass"]);
- define("DB_HOST", $db["host"]);
-}
-else {
- die("Your heroku DATABASE_URL does not appear to be correctly specified.");
-}
+/** MySQL database username */
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', '');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -45,14 +43,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'WOJt%E(+}RfxUQF_)^_6]&HCgI+hk`yY,7j.tWRQ1x?3)&8.d}{Q<c!xs >_o+1/');
-define('SECURE_AUTH_KEY',  '()cjLt^,cw9qAS{im);g a?]pK`)]IBMZh8^Q`&FpV:|w<(-I5hmmkXfwxWtdVeF');
-define('LOGGED_IN_KEY',    'RMOe,Wa?0G3G8Y+;^;pf5j2yB^U/:&B47.!xlv<+) EA}&I 92V6`g(!!y|>RD_]');
-define('NONCE_KEY',        'T`SU/F^gLExzTMkOuZ0Sa$;YSE<B9-Bv,I`:crCmD[-If;1KS)0xpw6da?o|}XzK');
-define('AUTH_SALT',        '++=!+v^@@PMASu1K+:[/j14+:Iz[(_</|CXJ5x*ztf+h,|C-STjRGtAO+)|eCOuA');
-define('SECURE_AUTH_SALT', '<ysV`ECR[qQ|oJ3B01aWQ7(A3Rc,+HJ*+s/W+RVYF|yS#pG_KRNd{* ||aUfRTk4');
-define('LOGGED_IN_SALT',   '0y+2%KY!3I%%(XwF`md$pq/.:4W4zJjqe0W6=F#+s^}#W?T]{ oGEKh*-rxA3z!w');
-define('NONCE_SALT',       '{{GeL!H,,$$!/+E0+ug3C8aOfCEb7mH=sYlZg4}T{+g>dP2mPX`t}g?8-UcJB);N');
+define('AUTH_KEY',         '@j?ipQ1nR,yuuCW@Uamericasbeautypageants.comAS-{%gQEpSr_+<dyb+>:Yd#nWbetyh~4rmMUap4Q6rZEcZy');
+define('SECURE_AUTH_KEY',  '+hOIBXnJ~C;ftmT([CA|]_wDSamericasbeautypageants.comG<K?#S8{H>//EaLy7]h:jhRfj.K=Usg#g&$9+ox');
+define('LOGGED_IN_KEY',    'c8K?-u_wU{BZ2yHK_sbOo1@?!americasbeautypageants.com}H<`PM%7^l6VJTY,~DSOJ,zCtVI@Ym$WZi1@5x5');
+define('NONCE_KEY',        's5,9YV+%:+HFX#l~ %RE`AZ/pamericasbeautypageants.comUzn<&<R%71t-|[H-L+}AtN9/thH&dMcVM8WN|Q}');
+define('AUTH_SALT',        'KUEIq@~d.Tk+~t>1:HS9$8G_*americasbeautypageants.comzG,jcuq2l=7l#KE[-1c)QW3a{LwGi-kwhRVP&]g');
+define('SECURE_AUTH_SALT', ';0GoKVCGWIZh:YOa*h[]-T&Diamericasbeautypageants.comnp=:iQ;z$>OkEYNi2@Y`|5-c|n:Jb #}97E?LX7');
+define('LOGGED_IN_SALT',   'we3RP{hVolwbVh-((L%LEcHKlamericasbeautypageants.com[IaA9<bDvi`h/M:3U7xK8S]A|.Q,2$|*jcOqWNB');
+define('NONCE_SALT',       '~<MckLITBiGaIV)497^JDbe-)americasbeautypageants.comG:*}/Prup?HeQMLNLz2kG~d/306X7Noin@gGh7+');
 
 /**#@-*/
 
@@ -67,12 +65,12 @@ $table_prefix  = 'wp_';
 /**
  * WordPress Localized Language, defaults to English.
  *
- * Change this to localize WordPress. A corresponding MO file for the chosen
+ * Change this to localize WordPress.  A corresponding MO file for the chosen
  * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
+ * de.mo to wp-content/languages and set WPLANG to 'de' to enable German
  * language support.
  */
-define('WPLANG', '');
+define ('WPLANG', '');
 
 /**
  * For developers: WordPress debugging mode.

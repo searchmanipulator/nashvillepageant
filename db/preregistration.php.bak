@@ -1,0 +1,37 @@
+<?php
+include('dbfuncs.php');
+
+$dbsuccess = "../registrationmessage.php";
+$dberror = "../dberror.php";
+
+$city_code = $_POST['city_code'];
+$pageant_city = $_POST['pageant_city'];  //info_session city
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$address1 = $_POST['address1'];
+$address2 = $_POST['address2'];
+$city = $_POST['city'];
+$state = $_POST['state'];
+$zip = $_POST['zip'];
+$parent = $_POST['parent']; //parent name
+$email = $_POST['email'];
+$parent_email = $_POST['parent_email'];
+$phone = $_POST['phone'];
+$hotel_name = $_POST['hotel_name'];
+$date = $_POST['date'];  //info_session date
+$time = $_POST['time'];  //info_session time
+$event_detail = $_POST['event_detail'];
+$prereg_code = $_POST['prereg_code'];  //pseudo-random code with prefix
+
+	  $connection = dbConnect();
+	
+	  $id = dbInsert("preregister", $connection, "city_code, pageant_city, fname, lname, address1, address2, city, state, zip, parent, email, parent_email, phone, hotel_name, date, time, event_detail, prereg_code","'$city_code', '$pageant_city', '$fname', '$lname', '$address1', '$address2', '$city', '$state', '$zip', '$parent', '$email', '$parent_email', '$phone', '$hotel_name', '$date', '$time', '$event_detail', '$prereg_code'", true);
+	  if ( 0 < $id)
+	  {     
+		readfile($dbsuccess); //success
+	  }
+	  else
+	  {
+		readfile($dberror); //error
+	  }
+?>
