@@ -1,0 +1,1 @@
+[15-May-2012 18:22:27] PHP Fatal error:  Call to undefined function  add_action() in /home4/misstee5/public_html/wp-content/plugins/brainbits-flickr-gallery/brainbits-flickr-gallery.php on line 72

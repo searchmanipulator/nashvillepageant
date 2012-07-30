@@ -1,0 +1,254 @@
+/*  
+Theme Name: Custom PlatformPro
+
+Description: PlatformPro is a drag-and-drop theme-design framework for WordPress. It will help you do amazing things with your site, faster & easier than ever before. Designed and developed by <a href="http://pagelines.com/">PageLines</a> in San Diego, California. Twitter @pagelines
+
+Version: 1.1.1
+
+Author: 64clicks
+
+Author URI: http://www.64clicks.com
+
+Tags: buddypress, theme-options, white, silver, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, flexible-width, custom-menu, fixed-width, threaded-comments, custom-header, custom-colors, translation-ready
+
+***** IMPORTANT ***** 
+Don't pirate this theme. Themes are typically hacked and injected with spam files and scripts that will get you 'black-listed' from search engines and create security risks on your server.
+ 
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/* 
+
+	Customization CSS in PageLines Themes
+	- Customize PageLines themes by adding CSS in the theme settings or in a child theme. 
+	- Don't add it here; as it will either get overwritten by updates, or prevent you from updating at all
+
+*/
+
+/* Get Core CSS */
+@import url('core/css/core.css');
+
+/* Get Theme CSS */
+@import url('css/theme.css');
+
+/* Get Dynamic CSS */
+@import url('core/css/dynamic.css');
+
+/* For WordPress.org theme repository checklist */
+.alignright {}
+.alignleft {}
+.alignnone {}
+.aligncenter {}
+.avatar {}
+.wp-caption {}
+.wp-caption-text {}
+.gallery {}
+.gallery-caption {}
+.sticky {}
+.bypostauthor {}
+.wp-smiley {}
+
+
+/* Added by 64clicks */
+
+body{
+     background: #ffccff;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, .fpost .post-title h2 a {
+    color: #5c4185;
+    padding-top: 40px;
+}
+
+/* -- Header -- */
+
+#header{
+  background: #dc4ab4 url(http://missteeninc.com/wp-content/uploads/2012/04/2012teen-header.jpg) no-repeat top center;
+  border-top: 3px double #000000;
+  border-bottom: 3px double #000000;
+}
+
+#branding .content{
+  background-color: transparent;
+  margin-bottom: -81px;
+}
+
+#branding .content-pad {
+   padding: 0;
+}
+
+/* -- navigation -- */
+
+#primary-nav {
+background: #5c4185;
+border-top: 1px solid #000000;
+}
+
+#primary-nav #nav_row {
+border-bottom: 0px solid #5c4185;
+}
+
+#primary-nav .main-nav li a, #primary-nav .main-nav li a:visited{
+color:#fff;
+}
+
+#primary-nav .main-nav li a:hover {
+    background: none repeat scroll 0 0 #31204b;
+}
+
+#primary-nav .main-nav li a:hover{
+color: #fff;
+}
+
+#primary-nav .main-nav li a:active{
+color: #000000;
+}
+
+#primary-nav .sf-menu li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#e08e40 none repeat scroll 0 0;
+}
+
+#primary-nav .sf-menu li a, #primary-nav .sf-menu li a:visited{
+color: #000000;
+}
+
+#primary-nav .sf-menu li a:hover{
+color: #fff;
+}
+
+#primary-nav .sf-menu li a:active{
+color: #000000;
+}
+
+#primary-nav .content-pad {
+padding-top:0;
+}
+
+.main-nav li.current-page-ancestor a, .main-nav li.current_page_item a, .main-nav li.current-page-ancestor ul a, .main-nav li.current_page_item ul a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#31204b none repeat scroll 0 0;
+}
+
+#subnav_row li a {
+border:medium none;
+color:#FEF0FA;
+display:block;
+padding:8px 10px;
+text-shadow:none;
+}
+
+/* -- content -- */
+
+#maincontent{
+background:transparent;
+}
+
+/* -- content headers -- */
+
+.widget-title {
+border-bottom:1px solid #999999;
+color:#000000;
+font-size:1em;
+letter-spacing:1px;
+margin-bottom:0.6em;
+padding:6px 8px 3px 0;
+text-align:left;
+text-transform:uppercase;
+}
+
+/* -- footer -- */
+
+#footer {
+background: transparent url(images/abp-footer.jpg) no-repeat top center;
+}
+
+#footer {
+clear:both;
+border-top: 1px double #000000;
+color:#333333;
+font-size:1em;
+overflow:hidden;
+position:relative;
+text-align:left;
+}
+
+#footer .content-pad {
+    padding: 3px 0 1em;
+}
+
+#footer li a {
+color:#5c4185;
+}
+
+#footer .widget-title {
+border:0 none;
+color:#000000;
+font-weight: bold;
+font-size:0.85em;
+margin-bottom:0.6em;
+padding-left:0;
+}
+
+#footer a {
+color:#5c4185;
+}
+
+#footer li h5 a {
+color:#5c4185;
+font-size:1em;
+}
+
+#footer .latest_posts li .list-excerpt {
+color:#333333;
+font-size:0.9em;
+line-height:1.5em;
+}
+
+/* -- widgets -- */
+
+.widget ul li a {
+}
+
+a, #subnav_row li.current_page_item a, #subnav_row li a:hover, #grandchildnav .current_page_item > a, .branding h1 a:hover, .post-comments a:hover, .bbcrumb a:hover, #feature_slider .fcontent.fstyle-lightbg a, #feature_slider .fcontent.fstyle-nobg a {
+color:#000;
+}
+
+/* -- search -- */
+
+.searchform .searchfield {
+background:none repeat scroll 0 0 #fff;
+border:1px solid #999966;
+color:#999999;
+font-size:12px;
+margin: 4px 0 0;
+padding:7px 30px 5px 7px;
+width:170px;
+}
+
+#callout .content-pad {
+padding:30px 17px 0;
+}
+
+/* -- forms -- */
+
+input, textarea {
+background:none repeat scroll 0 0 #f5f0fd;
+border-color:#622180;
+border-style:solid;
+border-width:1px;
+}
+
+.button, input[type="submit"], .submit {
+background:none repeat-x scroll left top #ce9ee4;
+border:1px solid #622180;
+color:#fff;
+margin:0;
+padding:2px 3px 1px 5px;
+}

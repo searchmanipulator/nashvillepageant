@@ -1,0 +1,125 @@
+.brainbits-flickrgallery {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.brainbits-flickrgallery li {
+	list-style-type: none;
+}
+
+.brainbits-flickrgallery h3 {
+	margin: .25em 0 .25em 0;
+}
+
+.brainbits-flickrgallery img:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+.brainbits-flickrgallery .selected img {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+.brainbits-flickrgallery-photosets {
+	overflow: hidden;
+	/* necessary to make overflow take effect on position relative child in ie */
+	position: relative;
+}
+
+.brainbits-flickrgallery-publicphotos {
+	display: inline;
+	float: left;
+}
+
+.brainbits-flickrgallery-photosets ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 70px;
+	position: relative;
+}
+
+.brainbits-flickrgallery-photos {
+	overflow: hidden;
+	/* necessary to make overflow take effect on position relative child in ie */
+	position: relative;
+}
+
+.brainbits-flickrgallery-photos ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 43px;
+	position: relative;
+}
+
+.brainbits-flickrgallery-photosets li {
+	display: inline;
+	list-style-type: none;
+}
+
+.brainbits-flickrgallery-photos li {
+	display: inline;
+	list-style-type: none;
+}
+
+.brainbits-flickrgallery-photosets img {
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
+	margin: 0 5px 5px 0;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	padding: 3px;
+	background: white;
+	border: solid 1px .aaa;
+}
+
+.brainbits-flickrgallery-photos img{
+	cursor: pointer;
+	height: 32px;
+	width: 32px;
+	margin: 0 5px 5px 0;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	padding: 3px;
+	background: white;
+	border: solid 1px .aaa;
+}
+
+.brainbits-flickrgallery-publicphotos img{
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
+	margin: 0 5px 5px 0;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	padding: 3px;
+	background: white;
+	border: solid 1px .aaa;
+}
+
+.brainbits-flickrgallery-display {
+	margin: 5px;
+	max-height: 322px;
+}
+
+.brainbits-flickrgallery-display img {
+	display: block;
+	height: 300px;
+	margin: 0 auto;
+	cursor: pointer;
+	padding: 10px;
+	background: white;
+	border: solid 1px .aaa;
+}
+
+.brainbits-flickrgallery-description p {
+	text-align: center;
+	margin: 5px auto 5px auto;
+	width: 400px;
+	height: 40px;
+	font-size: 75%;
+}

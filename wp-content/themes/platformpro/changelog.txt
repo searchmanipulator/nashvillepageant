@@ -1,0 +1,64 @@
+****************************
+
+  PlatformPro Release Notes: 
+
+****************************
+
+Version 1.1.1
+- Improved load order of stylesheets (improves custom css)
+- Fixed Mixx Icon
+- More array checking (warnings on some systems)
+- Page and Body Background Color Option
+- Posts Page Content Layout Option
+- Category Select for Carousel, Controls on Post Pages
+
+Version 1.1.0
+- Feature Section - Feature Name Bug
+- Array checking - Custom Post Types
+- Server FOpen Checking with TinyUrl
+
+Version 1.0.9
+- Fixed Image Removal Bug
+- Fixed Callout Section Link Bug
+- Fixed Installation & Template Map Issue
+- Added Writable Permissions Checking for dynamic CSS
+- Changed Image Uploading Protocol
+
+Version 1.0.8
+- Fixed images
+- Blog/Posts page options
+
+Version 1.0.7
+- 404 Handling
+- Soapbox Section
+
+Version 1.0.6
+- Section Control Options
+
+Version 1.0.5
+- Improved Child Theme Support
+- Base Child Support
+
+Version 1.0.4
+- Improved & Upgraded JS
+- Cleaned Up Images & Graphics
+- Supported Re-Order Plugin
+
+Version 1.0.3
+- Query/Performance Fixes
+- Platform Child Theme Support
+- Free Version Support
+- SEO Improvements
+- Security Improvements
+
+Version 1.0.2
+- Nav Fixes
+- Image improvements
+
+Version 1.0.1
+- Server config fixes
+- Error checking, etc..
+
+Version 1.0.0
+- Hi! This marks the first release candidate for the theme.
+- For a feature overview please see us at http://www.pagelines.com/

@@ -1,0 +1,3 @@
+[15-May-2012 18:22:30] PHP Fatal error:  Call to undefined function  _e() in /home4/misstee5/public_html/wp-content/plugins/wordpress-gallery-plugin/includes/our_feeds.php on line 4
+[15-May-2012 18:22:41] PHP Fatal error:  Call to undefined function  _e() in /home4/misstee5/public_html/wp-content/plugins/wordpress-gallery-plugin/includes/options.php on line 2
+[15-May-2012 18:22:42] PHP Fatal error:  Call to undefined function  _e() in /home4/misstee5/public_html/wp-content/plugins/wordpress-gallery-plugin/includes/help_support.php on line 2

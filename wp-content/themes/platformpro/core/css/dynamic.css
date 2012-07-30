@@ -1,0 +1,260 @@
+/* PageLines Dynamic CSS - Copyright 2008 - 2010 */
+
+/* Dynamic Layout */
+
+.fixed_width #page, .fixed_width #footer{width:980px}
+#site .content, .wcontent, #primary-nav ul.main-nav.nosearch{width:960px}
+#primary-nav ul{width:740px}
+
+.fullwidth #pagelines_content #column-main, .fullwidth .wmain, .fullwidth #buddypress-page #container{width:960px}
+.fullwidth #pagelines_content #sidebar1, .fullwidth #buddypress-page #sidebar1{width:0px}
+.fullwidth #pagelines_content #sidebar2, .fullwidth #buddypress-page #sidebar2{width:0px}
+.fullwidth #pagelines_content #column-wrap, .fullwidth #buddypress-page #container{width:960px}
+.fullwidth #pagelines_content #sidebar-wrap, .fullwidth #buddypress-page #sidebar-wrap{width:0px}
+.fullwidth #pagelines_content .clip, .fullwidth #buddypress-page .clip{width:465px}
+
+.one-sidebar-right #pagelines_content #column-main, .one-sidebar-right .wmain, .one-sidebar-right #buddypress-page #container{width:640px}
+.one-sidebar-right #pagelines_content #sidebar1, .one-sidebar-right #buddypress-page #sidebar1{width:320px}
+.one-sidebar-right #pagelines_content #sidebar2, .one-sidebar-right #buddypress-page #sidebar2{width:0px}
+.one-sidebar-right #pagelines_content #column-wrap, .one-sidebar-right #buddypress-page #container{width:640px}
+.one-sidebar-right #pagelines_content #sidebar-wrap, .one-sidebar-right #buddypress-page #sidebar-wrap{width:320px}
+.one-sidebar-right #pagelines_content .clip, .one-sidebar-right #buddypress-page .clip{width:290px}
+
+.one-sidebar-left #pagelines_content #column-main, .one-sidebar-left .wmain, .one-sidebar-left #buddypress-page #container{width:640px}
+.one-sidebar-left #pagelines_content #sidebar1, .one-sidebar-left #buddypress-page #sidebar1{width:320px}
+.one-sidebar-left #pagelines_content #sidebar2, .one-sidebar-left #buddypress-page #sidebar2{width:0px}
+.one-sidebar-left #pagelines_content #column-wrap, .one-sidebar-left #buddypress-page #container{width:640px}
+.one-sidebar-left #pagelines_content #sidebar-wrap, .one-sidebar-left #buddypress-page #sidebar-wrap{width:320px}
+.one-sidebar-left #pagelines_content .clip, .one-sidebar-left #buddypress-page .clip{width:290px}
+
+.two-sidebar-right #pagelines_content #column-main, .two-sidebar-right .wmain, .two-sidebar-right #buddypress-page #container{width:480px}
+.two-sidebar-right #pagelines_content #sidebar1, .two-sidebar-right #buddypress-page #sidebar1{width:240px}
+.two-sidebar-right #pagelines_content #sidebar2, .two-sidebar-right #buddypress-page #sidebar2{width:240px}
+.two-sidebar-right #pagelines_content #column-wrap, .two-sidebar-right #buddypress-page #container{width:480px}
+.two-sidebar-right #pagelines_content #sidebar-wrap, .two-sidebar-right #buddypress-page #sidebar-wrap{width:480px}
+.two-sidebar-right #pagelines_content .clip, .two-sidebar-right #buddypress-page .clip{width:210px}
+
+.two-sidebar-left #pagelines_content #column-main, .two-sidebar-left .wmain, .two-sidebar-left #buddypress-page #container{width:480px}
+.two-sidebar-left #pagelines_content #sidebar1, .two-sidebar-left #buddypress-page #sidebar1{width:240px}
+.two-sidebar-left #pagelines_content #sidebar2, .two-sidebar-left #buddypress-page #sidebar2{width:240px}
+.two-sidebar-left #pagelines_content #column-wrap, .two-sidebar-left #buddypress-page #container{width:480px}
+.two-sidebar-left #pagelines_content #sidebar-wrap, .two-sidebar-left #buddypress-page #sidebar-wrap{width:480px}
+.two-sidebar-left #pagelines_content .clip, .two-sidebar-left #buddypress-page .clip{width:210px}
+
+.two-sidebar-center #pagelines_content #column-main, .two-sidebar-center .wmain, .two-sidebar-center #buddypress-page #container{width:480px}
+.two-sidebar-center #pagelines_content #sidebar1, .two-sidebar-center #buddypress-page #sidebar1{width:240px}
+.two-sidebar-center #pagelines_content #sidebar2, .two-sidebar-center #buddypress-page #sidebar2{width:240px}
+.two-sidebar-center #pagelines_content #column-wrap, .two-sidebar-center #buddypress-page #container{width:720px}
+.two-sidebar-center #pagelines_content #sidebar-wrap, .two-sidebar-center #buddypress-page #sidebar-wrap{width:240px}
+.two-sidebar-center #pagelines_content .clip, .two-sidebar-center #buddypress-page .clip{width:195px}
+
+/* Dynamic Grid */
+
+.dcol_container_2{width: 980px; float: right;}
+.dcol_2{width: 470px; margin-left: 20px;}
+
+.dcol_container_3{width: 980px; float: right;}
+.dcol_3{width: 306px; margin-left: 20px;}
+
+.dcol_container_4{width: 980px; float: right;}
+.dcol_4{width: 225px; margin-left: 20px;}
+
+.dcol_container_5{width: 980px; float: right;}
+.dcol_5{width: 176px; margin-left: 20px;}
+
+/* Options */
+
+body #page{background:#ffffff;}
+body, body.fixed_width{background:#f4e5c4;}
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, .fpost .post-title h2 a{color:#993300;}
+a, #subnav_row li.current_page_item a, #subnav_row li a:hover, #grandchildnav .current_page_item > a, .branding h1 a:hover, .post-comments a:hover, .bbcrumb a:hover, 	#feature_slider .fcontent.fstyle-lightbg a, #feature_slider .fcontent.fstyle-nobg a{color:#000000;}
+a:hover,.commentlist cite a:hover,  #grandchildnav .current_page_item a:hover, .headline h1 a:hover{color:#999966;}
+
+
+/* Custom CSS */
+
+body{}
+
+/* -- Header -- */
+
+#header{
+  background: #F4E5C4 url(../../images/abp-header.jpg) no-repeat top center;
+  border-top: 3px double #000000;
+  border-bottom: 3px double #000000;
+}
+
+#branding .content{
+  background-color: transparent;
+  margin-bottom: -61px;
+}
+
+/* -- navigation -- */
+
+#primary-nav {
+background: #e08e40;
+border-top: 1px solid #000000;
+}
+
+#primary-nav #nav_row {
+border-bottom:1px solid #e08e40;
+}
+
+#primary-nav .main-nav li a, #primary-nav .main-nav li a:visited{
+color:#000000;
+}
+
+#primary-nav .main-nav li a:hover{
+color: #999966;
+}
+
+#primary-nav .main-nav li a:active{
+color: #000000;
+}
+
+#primary-nav .sf-menu li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#e08e40 none repeat scroll 0 0;
+}
+
+#primary-nav .sf-menu li a, #primary-nav .sf-menu li a:visited{
+color: #000000;
+}
+
+#primary-nav .sf-menu li a:hover{
+color: #999966;
+}
+
+#primary-nav .sf-menu li a:active{
+color: #000000;
+}
+
+#primary-nav .content-pad {
+padding-top:0;
+}
+
+.main-nav li.current-page-ancestor a, .main-nav li.current_page_item a, .main-nav li.current-page-ancestor ul a, .main-nav li.current_page_item ul a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#e08e40 none repeat scroll 0 0;
+}
+
+#subnav_row li a {
+border:medium none;
+color:#000000;
+display:block;
+padding:8px 10px;
+text-shadow:none;
+}
+
+/* -- content -- */
+
+#maincontent{
+background:transparent;
+}
+
+/* -- content headers -- */
+
+.widget-title {
+border-bottom:1px solid #999999;
+color:#000000;
+font-size:1em;
+letter-spacing:1px;
+margin-bottom:0.6em;
+padding:6px 8px 3px 0;
+text-align:left;
+text-transform:uppercase;
+}
+
+/* -- footer -- */
+
+#footer {
+background: transparent url(../../images/abp-footer.jpg) no-repeat top center;
+}
+
+#footer {
+clear:both;
+border-top: 1px double #000000;
+color:#333333;
+font-size:1em;
+overflow:hidden;
+position:relative;
+text-align:left;
+}
+
+#footer .content-pad {
+    padding: 3px 0 1em;
+}
+
+#footer li a {
+color:#993300;
+}
+
+#footer .widget-title {
+border:0 none;
+color:#000000;
+font-weight: bold;
+font-size:0.85em;
+margin-bottom:0.6em;
+padding-left:0;
+}
+
+#footer a {
+color:#993300;
+}
+
+#footer li h5 a {
+color:#993300;
+font-size:1em;
+}
+
+#footer .latest_posts li .list-excerpt {
+color:#333333;
+font-size:0.9em;
+line-height:1.5em;
+}
+
+/* -- widgets -- */
+
+.widget ul li a {
+}
+
+a, #subnav_row li.current_page_item a, #subnav_row li a:hover, #grandchildnav .current_page_item > a, .branding h1 a:hover, .post-comments a:hover, .bbcrumb a:hover, #feature_slider .fcontent.fstyle-lightbg a, #feature_slider .fcontent.fstyle-nobg a {
+color:#993300;
+}
+
+/* -- search -- */
+
+.searchform .searchfield {
+background:none repeat scroll 0 0 #F7F7F7;
+border:1px solid #999966;
+color:#999999;
+font-size:12px;
+margin: 4px 0 0;
+padding:7px 30px 5px 7px;
+width:170px;
+}
+
+#callout .content-pad {
+padding:30px 17px 0;
+}
+
+/* -- forms -- */
+
+input, textarea {
+background:none repeat scroll 0 0 #F4E5C4;
+border-color:#CC9966 #CC9966 #CC9966 #CC9966;
+border-style:solid;
+border-width:1px;
+}
+
+.button, input[type="submit"], .submit {
+background:none repeat-x scroll left top #F4E5C4;
+border:1px solid #cc9966;
+color:#000000;
+margin:0;
+padding:2px 3px 1px 5px;
+}
+

@@ -1,0 +1,317 @@
+#ezpzocb .ezpz-title {
+	font-weight: bold;
+	font: italic normal normal 17pt Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	line-height: 35px;
+	text-shadow: rgba(255,255,255,1) 0 1px 0;
+	color: #464646;
+	text-align: left;
+}
+#ezpzocb ul.circle {
+	list-style-type: circle;
+	list-style-image: none;
+	list-style-position: inside;
+}
+#ezpzocb .ezpz-ocb-warning {
+	border: 1px #8b0000 solid;
+	width: 450px;
+	background: #FFCCCC;
+	margin: 5px 5px 5px 12px;
+	padding: 8px;
+	text-align: justify;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+#ezpzocb #running {
+	background-color: #D5F9BB;
+	border-color: #52803E;
+	border-width: 1px;
+	border-style: dotted;
+	padding: 0 .6em 2px;
+	margin: 5px auto 5px auto;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	clear: both;
+}
+#ezpzocb #cpanel {
+	margin: 10px 0;
+}
+#ezpzocb #cpanel	div.label {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #464646;
+	padding-top: 8px;
+	padding-right: 0pt;
+	padding-bottom: 8px;
+	padding-left: 6px;
+	margin: 10px 0 0 0;
+	background-color: #dfdfdf;
+	text-shadow: #ffffff;
+	font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 18px;
+	-x-system-font: none;
+	width: 100%;
+	line-height: 24px;
+	text-shadow: #ffffff;
+	color: #464646;
+	text-align: left;//
+	background: url(../images/menu-bg.gif) top left repeat-x;
+	cursor: pointer;
+}
+#ezpzocb #cpanel	label.options {
+	font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 14px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	-x-system-font: none;
+	line-height: 16px;
+	text-shadow: #ffffff;
+	color: #464646;
+	text-align: left;
+	margin: 0 0 5px 5px;
+}
+#ezpzocb #cpanel	li.controls {
+	border: medium #dddddd solid;
+	border-top: none;
+	width: 100%;
+	margin: -12px 0 0 0;
+	padding: 14px 0 0 0;
+}
+#ezpzocb #cpanel	li.buttons {
+	display: inline;
+	padding: 0 0;
+	margin: 10px 10px;
+	font-size: 14px;
+}
+#ezpzocb #cpanel	ul.buttons {
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+}
+#ezpzocb #cpanel	p.label {
+	font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 16px;
+	-x-system-font: none;
+	line-height: 22px;
+	text-shadow: #ffffff;
+	color: #464646;
+	text-align: left;
+	margin: 0 0 10px 10px;
+}
+#ezpzocb div.toggler {
+	width: 22px;
+	height: 22px;
+	color: #cccccc;
+	font-size: 17px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -2px;
+	margin-right: 10px;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	background-color: #666666;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	background-clip: border-box;
+	background-origin: padding-box;
+	font-family: monospace;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: inline-block;
+	font-style: normal;
+}
+#ezpzocb #ezpzocbfaq {
+	font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	text-shadow: rgba(255,255,255,1) 0 1px 0;
+	color: #000066;
+	margin: 2px 18px 2px 20px;
+	text-align: left;
+}
+#ezpzocb #faq .faq-answer {
+	margin: 2px 2px 2px 20px;
+}
+#ezpzocb #faq .hilite {
+	background-color: #ffffe0;
+	border-color: #e6db55;
+	border-width: 1px;
+	border-style: solid;
+	padding: .3em .6em;
+	margin: 5px 35px 2px 15px;
+}
+#ezpzocb #faq h3 {
+	font-style: italic;
+}
+#ezpzocb .ezpz-btn, .ezpz-btn-active,  a.ezpz-btn:link , a.ezpz-btn:visited, a.ezpz-btn:hover, a.ezpz-btn:active  {
+	cursor: pointer;
+	text-decoration: none;
+	border-color: #bbb;
+	background-color: #fff;
+	color: #464646;
+	min-width: 130px;
+	max-width: 130px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px #bbb solid; 
+	border-top-left-radius: 33px;
+	border-top-right-radius: 33px;
+	border-bottom-right-radius: 33px;
+	border-bottom-left-radius: 33px;
+}
+#ezpzocb a.ezpz-btn:link , a.ezpz-btn:visited, a.ezpz-btn:hover, a.ezpz-btn:active  {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#ezpzocb .abort-btn {
+	color: maroon;
+	width: 80px !important;
+	text-align: right !important; 
+	font-size: 11px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important; 
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#ezpzocb .ezpz-btn-active {
+	font-weight: 600;
+}
+#ezpzocb .ezpz-btn:hover, a.ezpz-btn:hover {
+	color: #000000;
+	border-color: #666666;
+}
+#ezpzocb #c-bar-2 {
+	height: 42px;
+	padding: 10px 0 0 0; 
+	border: 3px #bbb solid; 
+	border-top-left-radius: 33px;
+	border-top-right-radius: 33px;
+	border-bottom-right-radius: 33px;
+	border-bottom-left-radius: 33px; ";
+}
+#ezpzocb #c-bar-img img{margin: -40px 0 0 0;}
+#ezpzocb #bgrunning {margin: 2px 0 0 0; display: none;}
+#ezpzocb input[type="button"][disabled].ezpz-btn,  #ezpzocb  input[type="button"][disabled]:hover, #ezpzocb input[type="button"][disabled]:active { 
+    color:#bbb;
+    background-color:#f6f6f6;
+    border-color: #bbb;
+    }
+#ezpzocb #ajax_output {
+	font-size: 12px;
+}
+#ezpzocb .bu-log h4 {
+	font-weight: bold;
+	font: italic normal normal 16px/24px Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	text-shadow: rgba(255,255,255,1) 0 1px 0;
+	color: #464646;
+	cursor: pointer;
+	margin: 0 10px;
+}
+#ezpzocb #logArea {
+	margin: 0 auto;
+	padding: 5px 20px;
+}
+#ezpzocb .inner-bu-log {
+	border: 3px #BBBBBB double; 
+	border-top-left-radius: 33px;
+	border-top-right-radius: 33px;
+	border-bottom-right-radius: 33px;
+	border-bottom-left-radius: 33px;
+	padding: 2px 15px;
+	background-color: #FFFFEE;
+}
+#ezpzocb #cpanel #status-area {
+	margin-top: -15px;	
+}
+#ezpzocb #readyStatus, #backupStatus, #transferStatus, #errorStatus {
+	margin: 0 0 0 10px;	
+	padding: 3px 8px 3px 8px;
+	width: 95%; 
+	border: 3px #BBBBBB double; 
+	border-radius: 15px;
+}
+#ezpzocb #readyStatus {
+	text-align: center;
+	font: normal normal normal 12px/21px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-shadow: rgba(255,255,255,1) 0 1px 0; 
+	border: 3px #BBBBBB double; 	
+	height: 24px;
+	background-color: #EAFFEF;
+	display: block;
+}
+#ezpzocb #backupStatus {
+	text-align: center;
+	font: normal normal normal 12px/21px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-shadow: rgba(255,255,255,1) 0 1px 0; 
+	border: 3px #BBBBBB double; 	
+	height: 24px;
+	background-color: #FCFCE9;	
+	display: none;
+}
+#ezpzocb #transferStatus {
+	text-align: center;
+	font: normal normal normal 12px/21px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-shadow: rgba(255,255,255,1) 0 1px 0; 
+	border: 3px #BBBBBB double; 	
+	min-height: 24px;
+	background-color: #FCFCE9;
+	display: none;
+}
+#ezpzocb #errorStatus {
+	text-align: justify;	 
+	border: 1px #666666 solid; 
+	min-height: 24px;
+	background-color: #CE1002;
+	color: #FFFFFF;
+	font: normal normal normal 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-shadow: 0;
+	display: none;
+}
+#ezpzocb #errorStatus a:link, #errorStatus a:visited, #errorStatus a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+#ezpzocb #errorStatus a:hover {
+	color: #ffffff;	
+	text-decoration: underline;
+}
+#ezpz-next-scheduled {
+	display: inline !important; 
+	font: normal normal normal 9pt Verdana, Geneva, Arial, Helvetica, sans-serif !important; 
+	padding-left: 20px !important;
+}
+#ezpzocb #noscript {
+	margin: -20px 0 20px 10px;	
+	padding: 3px 8px 3px 8px;
+	width: 95%; 
+	border: 3px #BBBBBB double; 
+	border-radius: 15px;
+	background-color: #CE1002;
+	color: #FFFFFF;
+	font: normal normal normal 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-shadow: 0;
+}
