@@ -75,7 +75,7 @@ define ('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
-define('WP_SITEURL', 'http://www.cincinnatipageant.com/' );
+define('WP_SITEURL', 'http://www.nashvillepageant.com/' );
 
 /* That's all, stop editing! Happy blogging. */
 
