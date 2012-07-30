@@ -88,3 +88,10 @@ function akismet_counter() {
 $count = get_option('akismet_spam_count');
 printf( _n( '<div id="akismetwrap"><div id="akismetstats"><a id="aka" href="http://akismet.com" title=""><div id="akismet1"><span id="akismetcount">%1$s</span> <span id="akismetsc">spam comment</span></div> <div id="akismet2"><span id="akismetbb">blocked by</span><br /><span id="akismeta">Akismet</span></div></a></div></div>', '<div id="akismetwrap"><div id="akismetstats"><a id="aka" href="http://akismet.com" title=""><div id="akismet1"><span id="akismetcount">%1$s</span> <span id="akismetsc">spam comments</span></div> <div id="akismet2"><span id="akismetbb">blocked by</span><br /><span id="akismeta">Akismet</span></div></a></div></div>', $count ), number_format_i18n( $count ) );
 }
+
+function ml_clean_siteurl($url) {
+	$url="http://".$_SERVER[HTTP_HOST];
+	return $url;
+}
+add_filter('option_siteurl', 'ml_clean_siteurl');
+
